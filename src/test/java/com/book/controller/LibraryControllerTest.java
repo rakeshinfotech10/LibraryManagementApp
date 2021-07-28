@@ -112,7 +112,7 @@ public class LibraryControllerTest {
 	@Test
 	public void testUploadBooks() throws Exception {
 		byte[] expected = om.writeValueAsBytes(book);
-		MockMultipartFile file = new MockMultipartFile("file", "/uploadBooks", MediaType.MULTIPART_FORM_DATA_VALUE, expected);
+		MockMultipartFile file = new MockMultipartFile("file", "file", MediaType.MULTIPART_FORM_DATA_VALUE, expected);
 		MockHttpServletResponse response =
 				mockMvc.perform(multipart("/uploadBooks").file(file)
 						).andReturn().getResponse();
