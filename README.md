@@ -5,7 +5,7 @@
 # Functional Features:-
   -CRUD interface to access the Books by ISBN<br />
   -Search API by any of the attributes of the Books<br />
-  -Rest API to Import Books from XLS(Refer SAMPLE.xlsx file under resources folder)
+  -Rest API to Import Books from Excel(Refer SAMPLE.xlsx file under resources folder)
 
 
 # Run the Application:-
